@@ -1,0 +1,8 @@
+import random
+answer=str(input("Press y to roll 2 dice."))
+if answer=="y":
+    ran_num1=random.randrange(1,6,1)
+    ran_num2=random.randrange(1,6,1)
+    print("the dice say: %d, %d"%(ran_num1,ran_num2))
+else:
+    print("asshole")
